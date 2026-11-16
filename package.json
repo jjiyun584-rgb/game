@@ -1,0 +1,1 @@
+{"name":"stock-classroom","version":"1.0.0","private":true,"description":"초등학교 6학년 모의주식투자 수업 게임","scripts":{"start":"node server.js"},"engines":{"node":">=18"}}

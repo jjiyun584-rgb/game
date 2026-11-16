@@ -1,0 +1,352 @@
+:root{font-family:'Pretendard','Apple SD Gothic Neo','Malgun Gothic',system-ui,sans-serif;color:#192332;background:#fff;--up:#e4484c;--down:#2870d4;--blue:#245eea;--line:#e9edf2;--muted:#7b8595}*{box-sizing:border-box}html{-webkit-text-size-adjust:100%}body{margin:0;min-width:320px}button,input{font:inherit}button{cursor:pointer;touch-action:manipulation}button:disabled{cursor:not-allowed;opacity:.38}button:focus-visible,input:focus-visible,[tabindex]:focus-visible{outline:3px solid #82a7ff;outline-offset:3px}header{height:80px;display:flex;align-items:center;justify-content:space-between;padding:0 max(28px,calc((100vw - 1240px)/2));border-bottom:1px solid var(--line);gap:16px}.brand{display:flex;align-items:center;gap:12px}.brand-icon{width:40px;height:40px;background:var(--blue);border-radius:11px;display:flex;align-items:center;justify-content:center;gap:4px}.brand-icon i{display:block;width:4px;background:#fff;position:relative}.brand-icon i:before{content:'';position:absolute;left:1.5px;top:-4px;bottom:-4px;width:1px;background:#fff}.brand-icon i:nth-child(1){height:10px;margin-top:9px}.brand-icon i:nth-child(2){height:18px}.brand-icon i:nth-child(3){height:12px;margin-top:-11px}.brand b{display:block;font-size:20px;letter-spacing:-.8px}.brand small{display:block;font-size:10px;color:var(--muted);letter-spacing:.8px;margin-top:3px}#headerRight{display:flex;align-items:center;gap:14px}.header-label{font-size:12px;font-weight:700;background:#f3f6fb;padding:8px 12px;border-radius:6px}main{max-width:1240px;padding:32px 28px 60px;margin:auto}.muted{color:var(--muted);font-size:12px}.eyebrow{color:var(--blue);font-size:10px;letter-spacing:1.7px;font-weight:800}.entry-layout{display:grid;grid-template-columns:1.2fr 1fr;align-items:center;gap:70px;min-height:calc(100vh - 180px);max-width:1080px;margin:auto}.hero h1{font-size:clamp(34px,3.4vw,48px);line-height:1.3;letter-spacing:-2px;margin:20px 0}.hero em{font-style:normal;color:var(--blue)}.hero p{font-size:14px;color:#6b7788;line-height:1.9}.hero p.hint{font-size:11px;margin-top:26px}.entry-stats{display:flex;gap:36px;margin:32px 0}.entry-stats>div>span{display:block;color:var(--muted);font-size:11px;margin-bottom:8px}.entry-stats b{font-size:28px;letter-spacing:-1px}.entry-stats b span{font-size:13px;margin-left:5px;font-weight:500}.how{display:flex;flex-wrap:wrap;gap:8px}.how span{padding:7px 9px;background:#f4f6fa;border:1px solid var(--line);border-radius:5px;color:#69778a;font-size:10px}.entry{padding:30px;border:1px solid #dfe5ef;border-radius:16px;box-shadow:0 14px 40px #18315708}.tabs{display:flex;gap:5px;padding:4px;background:#f3f5f8;border-radius:8px;margin-bottom:28px}.tabs button{flex:1;border:0;border-radius:6px;background:none;color:var(--muted);padding:12px;font-size:13px;font-weight:700}.tabs button.active{background:#fff;color:var(--blue);box-shadow:0 1px 4px #162c5012}.entry h2{font-size:21px;letter-spacing:-.8px}.entry .muted{line-height:1.7}label{display:block;font-size:12px;font-weight:700;margin:20px 0 9px}input{padding:14px;border:1px solid #dce2ea;background:#fff;color:#192332;border-radius:7px;width:100%}input::placeholder{color:#adb5c1}input:focus{border-color:var(--blue)}.btn{border:0;border-radius:7px;background:var(--blue);color:#fff;padding:12px 16px;min-height:42px;font-size:13px;font-weight:700}.btn:hover:not(:disabled){filter:brightness(.96)}.btn.outline{background:#fff;border:1px solid #dce2ea;color:#627188}.btn.wide{display:block;width:100%;margin-top:16px}.btn.compact{font-size:11px;min-height:34px;padding:8px 12px}.btn.buy{background:var(--up)}.btn.sell{background:var(--down)}.hint{font-size:11px;line-height:1.7;color:#8792a2}.dashboard{display:grid;grid-template-columns:minmax(0,1fr) 310px;gap:20px;align-items:start}.dashboard>*{min-width:0}.full{grid-column:1/-1}.dashboard-heading h1{font-size:28px;letter-spacing:-1.3px;margin:9px 0 0}.topline,.row,.section-title{display:flex;justify-content:space-between;align-items:center;gap:12px}.actionrow{display:flex;gap:8px;align-items:center;flex-wrap:wrap}.status{display:inline-flex;align-items:center;gap:5px;font-size:11px;background:#f2f5f9;color:#708096;border-radius:5px;padding:8px 10px;white-space:nowrap}.status.green{color:#19825f;background:#eaf7f1}.room-code{background:#edf3ff;color:#436294}.room-code b{letter-spacing:1.2px;color:var(--blue)}.round-progress{display:flex;gap:5px;margin-top:28px}.round-step{flex:1;border-top:3px solid #edf0f4;padding:10px 0 0;display:flex;gap:7px;align-items:center;color:#a5adba}.round-step span{font-size:10px;font-weight:700}.round-step b{font-size:11px;font-weight:500}.round-step.current{border-color:var(--blue);color:var(--blue)}.round-step.current b{font-weight:750}.round-step.complete{border-color:#b3c8ff;color:#6d87bc}.market-strip{display:flex;overflow-x:auto;border:1px solid var(--line);background:#fafbfc;border-radius:8px;padding:14px 0;scrollbar-width:thin}.ticker{flex-shrink:0;min-width:167px;padding:0 20px;border-right:1px solid #e4e9ef;display:grid;grid-template-columns:auto auto;gap:6px 12px}.ticker:last-child{border:0}.ticker>span{grid-column:1/-1;font-size:10px;color:#808a99}.ticker b{font-size:12px}.ticker small{font-size:10px}.card{border:1px solid var(--line);border-radius:10px;padding:23px;background:#fff;min-width:0}.section-title{margin-bottom:15px}.section-title h2{margin:0!important}.card h2{font-size:17px;letter-spacing:-.6px;margin:0 0 14px}.card h3{font-size:13px;margin:0 0 12px}.tag{font-size:10px;border:1px solid #e5eaf1;background:#f8fafc;color:#7b8a9e;padding:5px 8px;border-radius:4px;white-space:nowrap}.news-card{border-left:3px solid var(--blue)}.news h2{font-size:20px}.news p{font-size:13px;line-height:1.95;color:#566274;margin:0;overflow-wrap:anywhere}.market-card>.hint{margin-top:-5px;margin-bottom:20px}.gridcompanies{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}.company{border:1px solid var(--line);padding:18px;border-radius:8px}.company:hover{border-color:#bac9df}.company-heading{display:flex;align-items:center;gap:10px}.company-heading h3{font-size:13px;margin:0 0 3px;letter-spacing:-.3px}.company-icon{width:32px;height:32px;display:grid;place-items:center;background:#f4f6f9;border-radius:8px;font-size:18px;flex-shrink:0}.company-code{display:block;font-size:8px;letter-spacing:.7px;color:#a1aab9}.price-indicator{font-size:11px;margin-left:auto}.desc{font-size:10px;line-height:1.65;color:#8993a1;min-height:33px;margin:13px 0 10px}.price{font-size:25px;font-weight:800;letter-spacing:-.7px}.price-comparison{font-size:10px;margin:6px 0 13px}.hold{display:flex;justify-content:space-between;flex-wrap:wrap;gap:7px;font-size:10px;color:#929bab;border-top:1px solid #f0f2f6;padding-top:11px}.hold b{color:#5a687a;font-weight:600}.tradebuttons{display:flex;gap:6px;margin-top:14px}.tradebuttons button{flex:1;min-width:0;padding:9px 4px;min-height:36px;font-size:11px}.up{color:var(--up)}.down{color:var(--down)}.neutral{color:#737f90}.account-card{position:sticky;top:20px;background:#fcfdff}.bigmoney{font-size:29px;font-weight:800;letter-spacing:-1px;margin:8px 0}.asset-return{font-size:11px}.asset-return b{margin-left:3px}.line{border:0;border-top:1px solid var(--line);margin:23px 0}.balance-row{display:flex;justify-content:space-between;gap:10px;font-size:11px;margin:15px 0;color:#7f8b9a}.balance-row b{color:#364457;font-size:12px}.statrow{display:flex;gap:25px}.statrow>div{flex:1}.statrow strong{display:block;font-size:26px;margin-top:8px}.statrow small{font-size:11px;font-weight:500;color:#919bab}.member{display:flex;align-items:center;justify-content:space-between;gap:10px;border-bottom:1px solid var(--line);padding:11px 0;font-size:12px}.member:last-child{border:0}.wait{padding-top:22px;text-align:center}.wait p{font-size:11px;color:#8792a2;line-height:1.7}.history{max-height:330px;overflow:auto}.transaction{padding:13px 0;border-bottom:1px solid var(--line);display:flex;align-items:center;justify-content:space-between;gap:8px;font-size:10px}.transaction div>b{font-size:11px;display:block;margin-bottom:5px}.transaction span{font-size:9px;color:#9aa4b3}.transaction em{font-style:normal}.empty{font-size:12px;color:#9aa4b3;padding:20px 0}.result-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:14px}.result-item{border:1px solid var(--line);border-radius:7px;padding:16px}.result-item .row{font-size:12px}.result-item p{font-size:11px;line-height:1.8;color:#7c8797}.result-item p b{color:#45546b;font-weight:600}.result-price{margin:12px 0}.small{font-size:10px}.rank{display:flex;align-items:center;justify-content:space-between;padding:16px;border-bottom:1px solid var(--line);font-size:13px;gap:12px}.rank span>b{color:var(--blue);margin-right:16px}.rank:last-child{border:0}.lobby{display:flex;justify-content:space-between;align-items:center;gap:20px;background:#fbfcff}.lobby p{font-size:12px;color:#7e8b9c;line-height:1.8;margin-bottom:0}.code{font-size:30px;letter-spacing:5px;color:var(--blue)}.overlay{position:fixed;inset:0;z-index:20;background:#15213c66;backdrop-filter:blur(3px);padding:20px;display:grid;place-items:center}.modal{width:100%;max-width:420px;max-height:calc(100dvh - 40px);overflow:auto;background:#fff;border:1px solid #e2e8f2;border-radius:14px;padding:28px;box-shadow:0 30px 100px #0a1b3926;outline:none}.modal h2{font-size:21px;letter-spacing:-.7px;margin:12px 0}.modal p{font-size:12px;line-height:1.8;color:#778398}.modal .actionrow{margin-top:24px}.modal .actionrow .btn{flex:1}.modal-open{overflow:hidden}.chart-modal{max-width:740px}.icon-button{border:1px solid var(--line);border-radius:6px;background:#fff;width:32px;height:32px;font-size:23px;color:#8290a3}.chart-price{font-size:30px;font-weight:800;margin:10px 0 22px}.chart-price small{font-size:13px;font-weight:600}.chart-toolbar{display:flex;align-items:center;justify-content:space-between;gap:8px;border-top:1px solid var(--line);border-bottom:1px solid var(--line);padding:12px 0}.chart{display:block;width:100%;height:auto;max-height:400px;background:#fff;margin-top:15px}.chartgrid{stroke:#edf0f5;stroke-width:1}.chartgrid.vertical{stroke-dasharray:3 4}.chartlabel{font-size:10px;fill:#99a3b2}.chart-empty{font-size:11px;fill:#8290a2}.base-line{stroke:#a1b0c4;stroke-dasharray:4 4;stroke-width:1}.candle{cursor:pointer;outline:none}.candle-body{fill:currentColor}.candle-wick{stroke:currentColor;stroke-width:2}.candle-hit{fill:transparent}.candle:hover .candle-hit,.candle:focus .candle-hit,.candle.selected .candle-hit{fill:#edf3ff99}.candle:focus .candle-body{stroke:#18334e;stroke-width:1}.chart-legend{display:flex;gap:16px;font-size:10px;padding-bottom:14px;justify-content:center}.candle-detail{background:#f8fafc;border:1px solid var(--line);border-radius:6px;padding:14px;display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:12px;font-size:11px}.candle-detail span{color:#8c98a8}.candle-detail strong{color:#3e4d61;margin-left:4px}#toast{position:fixed;bottom:max(24px,env(safe-area-inset-bottom));left:50%;transform:translateX(-50%);z-index:30;background:#243550;color:white;border-radius:8px;padding:13px 20px;font-size:12px;max-width:calc(100vw - 24px);opacity:0;pointer-events:none}#toast.show{opacity:1}h1,h2,h3,p,.member span{overflow-wrap:anywhere}.price,.bigmoney,.chart-price,.ticker b{font-variant-numeric:tabular-nums}
+@media(max-width:1080px){.dashboard{grid-template-columns:minmax(0,1fr) 280px;gap:14px}.card{padding:18px}.company{padding:14px}.price{font-size:22px}.result-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.entry-layout{gap:35px}.bigmoney{font-size:25px}.balance-row{flex-wrap:wrap}.company-heading h3{font-size:12px}}
+@media(max-width:800px){header{height:70px;padding:0 20px}main{padding:26px 20px 40px}.entry-layout{grid-template-columns:1fr;gap:25px;max-width:480px;min-height:0}.hero{padding-top:15px}.hero h1{font-size:35px}.entry-stats{margin:25px 0}.entry{padding:25px}.dashboard{grid-template-columns:minmax(0,1fr)}.full{grid-column:1}.account-card{position:static;grid-row:4}.market-card{grid-row:5}.dashboard:has(.lobby) .account-card{grid-row:5}.dashboard:has(.lobby) .market-card{grid-row:6}.dashboard-heading h1{font-size:24px}.topline{align-items:flex-start;flex-wrap:wrap;gap:18px}.account-card .history{max-height:150px}.bigmoney{font-size:30px}.result-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.gridcompanies{grid-template-columns:repeat(2,minmax(0,1fr))}.balance-row{font-size:12px}.lobby{flex-wrap:wrap}}
+@media(max-width:500px){header{height:66px;padding:0 16px;gap:10px}.brand{gap:9px}.brand b{font-size:17px}.brand small{font-size:8px}.brand-icon{width:34px;height:34px;border-radius:9px}#headerRight{display:block;text-align:right}#headerRight .muted{font-size:8px;display:block;margin-top:5px}.header-label{font-size:9px;padding:4px 7px}main{padding:22px 14px 36px}.entry{padding:22px}.hero h1{font-size:33px}.hero p{font-size:12px}.entry-stats b{font-size:25px}.how{gap:5px}.how span{font-size:9px;padding:6px}.dashboard{gap:14px}.dashboard-heading h1{font-size:24px}.actionrow{gap:6px}.status{font-size:10px;padding:7px 8px}.round-progress{margin-top:23px;gap:5px}.round-step{display:block;padding-top:8px}.round-step span{display:block;font-size:9px;margin-bottom:4px}.round-step b{font-size:10px}.ticker{min-width:151px;padding:0 16px}.card{padding:17px;border-radius:8px}.news h2{font-size:17px;line-height:1.5}.news p{font-size:11px;line-height:1.95}.gridcompanies{grid-template-columns:minmax(0,1fr);gap:10px}.company{padding:18px}.company-heading h3{font-size:15px}.company-code{font-size:9px}.desc{min-height:0;font-size:11px}.price{font-size:29px}.hold{font-size:11px}.tradebuttons button{min-height:44px;font-size:12px}.result-grid{grid-template-columns:minmax(0,1fr)}.modal{padding:19px;border-radius:11px}.overlay{padding:12px}.chart-price{font-size:27px}.chart-toolbar .muted{font-size:9px}.chartlabel{font-size:11px}.candle-detail{gap:10px;font-size:10px}.candle-detail>b:first-child{width:100%}.modal .hint{font-size:10px}.lobby .code{font-size:26px}.btn{min-height:44px}.icon-button{min-height:32px}.section-title{gap:8px}.rank{padding:14px 6px;font-size:12px}}
+
+/* White dialogs, navy headings and a shaded backdrop match the ranking example. */
+.overlay{background:rgba(16,21,36,.58);backdrop-filter:none}
+.ranking-modal{max-width:680px;padding:28px 30px 30px;border-radius:16px;box-shadow:0 20px 70px #0003}
+.ranking-heading{display:flex;align-items:center;justify-content:space-between;gap:14px;margin-bottom:22px;color:#10182c}
+.ranking-heading h2{margin:0;font-size:25px;line-height:1.4;font-weight:800;letter-spacing:-.8px}.ranking-heading h2>span{margin-right:5px}.ranking-heading h2 small{font-size:18px;font-weight:600;white-space:nowrap}.ranking-heading .icon-button{border:0;background:transparent;color:#10182c;font-size:34px;line-height:1;min-width:36px;height:36px;flex-shrink:0}
+.ranking-privacy{margin:-12px 0 16px!important}.ranking-list{max-height:min(62dvh,530px);overflow:auto;border:1px solid #d8deea;border-radius:9px;overscroll-behavior:contain}.ranking-table{width:100%;border-collapse:collapse;font-size:15px;color:#111827}.ranking-table thead{position:sticky;top:0;z-index:1}.ranking-table thead th{background:#e8ecf5;font-weight:700;padding:13px 10px;text-align:left}.ranking-table thead th:first-child{width:18%;text-align:center}.ranking-table thead th:nth-child(2){width:26%}.ranking-table thead th:last-child{text-align:center}.ranking-table tbody th,.ranking-table tbody td{padding:9px 10px;border-top:1px solid #d8deea;text-align:left;font-weight:600}.ranking-table tbody td:first-child{text-align:center}.rank-medal{display:inline-block;min-width:28px;font-size:18px;line-height:1.6}.ranking-table tr:nth-child(-n+3) .rank-medal{font-size:27px;line-height:1.2}.ranking-assets{text-align:right!important;font-variant-numeric:tabular-nums;white-space:nowrap}.ranking-assets>span{display:inline-block;min-width:76px;margin-left:12px}.ranking-table tbody th{overflow-wrap:anywhere}
+
+@media(max-width:600px){.ranking-modal{padding:20px 16px;border-radius:13px}.ranking-heading{gap:7px;margin-bottom:17px}.ranking-heading h2{font-size:19px}.ranking-heading h2 small{font-size:12px}.ranking-heading .icon-button{font-size:29px;min-width:32px}.ranking-table{font-size:12px}.ranking-table thead th,.ranking-table tbody th,.ranking-table tbody td{padding:9px 6px}.ranking-table thead th:first-child{width:15%}.ranking-table thead th:nth-child(2){width:23%}.ranking-assets>span{display:block;min-width:0;font-size:11px;margin:4px 0 0}.ranking-table tr:nth-child(-n+3) .rank-medal{font-size:23px}}
+
+/* Finished students see only the completion sentence. */
+body.student-finished header{display:none}body.student-finished main{width:100%;max-width:none;min-height:100dvh;padding:24px;display:grid;place-items:center}.student-end-screen{text-align:center;width:100%}.student-end-screen h1{font-size:clamp(20px,4.8vw,32px);font-weight:700;line-height:1.7;letter-spacing:-.6px;color:#17223a;margin:0}
+
+/* November redesign: stock trading classroom interface */
+:root{--blue:#101f49;--line:#e0e5ee;--muted:#66748b;--up:#ed313c;--down:#2465df}
+body{background:#f6f8fc;color:#15213c}
+header{height:74px;background:#fff;padding:0 30px;border-bottom:1px solid #e0e5ee;box-shadow:0 1px 3px #13214205}
+.brand-icon{border-radius:6px;background:#13254f}
+.brand b{font-size:21px;font-weight:850;color:#0e1c3a}
+.brand small{font-size:9px;letter-spacing:.6px;color:#8190a5}
+#headerRight{gap:32px;font-size:14px;font-weight:700;color:#1a2944}
+.top-room b{font-size:20px;margin-left:6px;color:#14244b;letter-spacing:.7px}
+.top-players{white-space:nowrap}
+.room-info-btn{border:1px solid #d7deeb;border-radius:9px;padding:10px 22px;background:#fff;font-size:13px;font-weight:750;color:#24324c}
+.room-info-btn:hover{background:#f2f5fa}
+body.teacher-view main{max-width:none;padding:0;margin:0}
+.teacher-workspace{display:grid;grid-template-columns:210px minmax(420px,1fr) 312px;gap:22px;padding:22px 22px 36px 0;min-height:calc(100dvh - 74px);align-items:start}
+.teacher-sidebar{grid-column:1;position:sticky;top:0;align-self:stretch;min-height:calc(100dvh - 96px);display:flex;flex-direction:column;justify-content:space-between;padding:4px 12px 14px;background:#fff;border-right:1px solid #e2e6ee;margin-top:-22px;padding-top:22px}
+.sidebar-menu{display:grid;gap:7px}
+.sidebar-link{width:100%;display:flex;align-items:center;gap:14px;text-align:left;background:transparent;border:0;border-radius:9px;color:#172441;font-size:15px;font-weight:650;padding:17px 16px;white-space:nowrap}
+.sidebar-link>span{font-size:21px;width:22px;text-align:center;line-height:1}
+.sidebar-link.active{background:#14244f;color:white}
+.sidebar-link:not(.active):hover{background:#eef2f8}
+.sidebar-exit{font-size:14px;margin-top:28px}
+.teacher-main{display:flex;flex-direction:column;gap:18px;min-width:0}
+.teacher-sidepanel{display:flex;flex-direction:column;gap:18px;min-width:0;position:sticky;top:18px}
+.teacher-view .card{background:#fff;border:1px solid #e0e5ee;border-radius:13px;padding:22px;box-shadow:0 2px 7px #11254c06}
+.teacher-view .card h2{font-size:19px;font-weight:800;letter-spacing:-.5px;color:#182544}
+.teacher-progress h2{margin:0 0 25px!important}
+.timeline{display:flex;justify-content:space-between;align-items:flex-start;position:relative;margin:0 10px 4px}
+.timeline:before{content:'';position:absolute;left:7%;right:7%;height:3px;top:20px;background:#e1e5ed}
+.timeline-item{z-index:1;flex:1;display:flex;flex-direction:column;align-items:center;gap:9px;color:#69768d;min-width:0}
+.timeline-dot{display:grid;place-items:center;width:41px;height:41px;border-radius:50%;background:#fff;border:2px solid #dce2eb;color:#7b8798;font-size:12px;font-weight:850;box-shadow:0 2px 5px #0000000a}
+.timeline-item.done .timeline-dot{background:#142651;color:white;border-color:#142651}
+.timeline-item.active .timeline-dot{background:#1b376d;color:white;border-color:#1b376d;box-shadow:0 0 0 4px #dce5f8}
+.timeline-item small{font-size:11px;font-weight:600;white-space:nowrap}
+.teacher-news .section-title{margin-bottom:19px}
+.teacher-news-body{display:grid;grid-template-columns:125px minmax(0,1fr);gap:18px;align-items:center}
+.news-illustration{height:113px;border-radius:12px;background:linear-gradient(140deg,#cfe3f7,#dceef5 50%,#a4c9e2);display:grid;place-items:center;font-size:57px;box-shadow:inset 0 -18px 45px #467ba71c}
+.teacher-news-body h3{font-size:16px;font-weight:800;line-height:1.5;color:#162744;margin:0 0 8px}
+.teacher-news-body p{font-size:12px;line-height:1.9;color:#52617a;margin:0}
+.teacher-market{overflow:hidden}
+.teacher-table-wrap{width:100%;overflow-x:auto}
+.teacher-table{width:100%;border-collapse:collapse;font-size:12px;text-align:right;white-space:nowrap}
+.teacher-table thead{background:#f1f4f8;color:#55647d}
+.teacher-table th,.teacher-table td{padding:12px 9px;border-bottom:1px solid #e6eaf1}
+.teacher-table thead th{font-weight:750}
+.teacher-table th:first-child{text-align:left}
+.teacher-table tbody th{font-weight:700;color:#182744}
+.teacher-table tbody tr:last-child th,.teacher-table tbody tr:last-child td{border-bottom:0}
+.teacher-table tbody tr:hover{background:#fafbfe}
+.stock-name{display:flex;align-items:center;gap:8px}
+.stock-icon{width:27px;height:27px;border-radius:7px;background:#f0f3f8;display:grid;place-items:center;font-size:15px;flex-shrink:0}
+.stock-number{font-variant-numeric:tabular-nums;font-weight:650}
+.mini-chart{display:block;width:92px;height:34px;margin-left:auto}
+.table-chart-btn{border:1px solid #dce4ef;background:#f9fbff;color:#284a80;border-radius:6px;padding:7px 9px;font-size:11px;font-weight:700}
+.table-chart-btn:hover{background:#eaf0fa}
+.teacher-round-card{padding:0!important;overflow:hidden}
+.teacher-round-card h2{margin:0!important;background:#162a59;color:#fff!important;font-size:20px!important;padding:16px 22px}
+.round-card-body{padding:20px 21px 23px}
+.round-current{display:flex;align-items:center;gap:15px;font-size:13px}
+.round-current span{color:#66748b}
+.round-current strong{color:#193a7a;font-size:15px}
+.round-card-body p{margin:18px 0 0;font-size:12px;line-height:1.9;color:#43516b}
+.teacher-members h2{margin:0 0 12px!important;font-size:17px!important}
+.teacher-members h2 span{font-size:14px;font-weight:700}
+.teacher-member-list{max-height:340px;overflow-y:auto}
+.teacher-member{display:flex;justify-content:space-between;align-items:center;padding:10px 2px;gap:10px;border-bottom:1px solid #edf0f5;font-size:12px;color:#26334b}
+.teacher-member:last-child{border-bottom:0}
+.done-text{color:#148454;font-weight:750}.pending-text{color:#8995a7}
+.teacher-controls{display:grid;gap:10px}
+.teacher-main-action,.teacher-rank-action{width:100%;border:0;border-radius:10px;min-height:57px;padding:12px 15px;background:#142753;color:#fff;font-size:17px;font-weight:800}
+.teacher-main-action:disabled{background:#adb4c0;color:#f3f4f6;opacity:1}
+.teacher-rank-action{background:#12244f}
+.teacher-main-action:not(:disabled):hover,.teacher-rank-action:hover{background:#243d75}
+.teacher-controls small{text-align:center;color:#7b8799;font-size:11px;margin-top:-3px}
+.teacher-main .card.full{width:100%}
+.teacher-main .result-grid{grid-template-columns:repeat(2,minmax(0,1fr))}
+.info-code{font-size:23px;letter-spacing:3px;color:#132957;margin-left:8px}
+/* Preserve the reference's dark backdrop and spacious ranking window. */
+.ranking-modal{max-width:680px}
+/* Student screen shares the same navy and light-card visual language. */
+body.student-view main{max-width:1280px}
+.student-view .card,.student-view .dashboard-heading{background:#fff;border:1px solid #e0e5ee;border-radius:12px;padding:22px;box-shadow:0 2px 7px #11254c06}
+.student-view .dashboard-heading h1{font-size:25px}
+.student-view .round-step.current{border-color:#183465;color:#183465}
+.student-view .account-card{background:#fff}
+.student-view .company{border-radius:9px;background:#fff}
+.student-view .btn:not(.buy):not(.sell):not(.outline){background:#142753}
+.student-view .market-strip{background:#fff}
+body.student-finished header{display:none}
+body.student-finished main{max-width:none;background:#fff}
+/* Layout changes for smaller desktops, tablets and student phones. */
+@media(max-width:1290px){.teacher-workspace{grid-template-columns:170px minmax(340px,1fr) 268px;gap:14px;padding-right:14px}.sidebar-link{font-size:13px;padding:15px 10px;gap:8px}.teacher-view .card{padding:16px}.teacher-table{font-size:11px}.teacher-table th,.teacher-table td{padding:11px 6px}.mini-chart{width:70px}.teacher-news-body{grid-template-columns:94px minmax(0,1fr)}.news-illustration{height:100px}}
+@media(max-width:1030px){.teacher-workspace{grid-template-columns:150px minmax(0,1fr);gap:15px;padding-right:15px}.teacher-sidebar{grid-row:1 / span 2}.teacher-main{grid-column:2}.teacher-sidepanel{grid-column:2;position:static;display:grid;grid-template-columns:1fr 1fr;align-items:start}.teacher-controls{grid-column:1/-1;grid-template-columns:1fr 1fr}.teacher-controls small{grid-column:1/-1}.teacher-round-card{min-height:100%}.teacher-table{font-size:12px}.teacher-table th,.teacher-table td{padding:12px 8px}.mini-chart{width:90px}}
+@media(max-width:720px){header{height:66px;padding:0 14px}.brand b{font-size:15px}.brand small{display:none}#headerRight{gap:10px;font-size:11px}.top-room b{font-size:14px}.top-players{display:none}.room-info-btn{padding:8px 10px;font-size:11px}.teacher-workspace{display:flex;flex-direction:column;padding:12px;gap:12px;min-height:calc(100dvh - 66px)}.teacher-sidebar{position:static;min-height:0;width:100%;padding:0;margin:0;border:0;background:transparent}.sidebar-menu{display:flex;gap:7px;overflow-x:auto}.sidebar-link{flex:1;justify-content:center;min-width:0;padding:12px 6px;gap:5px;font-size:11px;border:1px solid #e0e5ee;background:#fff}.sidebar-link>span{font-size:14px;width:auto}.sidebar-exit{display:none}.teacher-main,.teacher-sidepanel{width:100%}.teacher-sidepanel{display:flex;flex-direction:column}.teacher-controls{display:grid;grid-template-columns:1fr}.teacher-controls small{grid-column:auto}.teacher-view .card{padding:16px}.teacher-progress h2{margin-bottom:21px!important}.timeline{margin:0}.timeline-dot{width:34px;height:34px;font-size:10px}.timeline:before{top:16px}.timeline-item small{font-size:9px}.teacher-news-body{grid-template-columns:76px minmax(0,1fr);gap:12px}.news-illustration{height:84px;font-size:39px}.teacher-news-body h3{font-size:14px}.teacher-news-body p{font-size:11px}.teacher-table{min-width:670px}.teacher-table-wrap{margin:0 -4px;width:calc(100% + 8px)}.teacher-round-card h2{padding:14px 17px}.teacher-member-list{max-height:300px}.teacher-main .result-grid{grid-template-columns:1fr}}
+@media(max-width:390px){.brand-icon{width:28px;height:28px}.brand b{font-size:13px}.top-room{font-size:10px}.top-room b{font-size:12px}.room-info-btn{font-size:10px;padding:7px}.teacher-news-body{grid-template-columns:1fr}.news-illustration{display:none}}
+/* Clearer, touch-friendly student typography. */
+.student-view .dashboard-heading .eyebrow,.student-view .news-card .eyebrow{font-size:10px}
+.student-view .card h2{font-size:19px}
+.student-view .news h2{font-size:19px}
+.student-view .news p{font-size:13px;line-height:1.9}
+.student-view .company-heading h3{font-size:15px}
+.student-view .desc{font-size:12px;line-height:1.65}
+.student-view .price-comparison{font-size:12px}
+.student-view .hold{font-size:12px}
+.student-view .tradebuttons button{font-size:13px;min-height:44px}
+.student-view .balance-row{font-size:13px}
+.student-view .balance-row b{font-size:13px}
+.student-view .member,.student-view .transaction{font-size:12px}
+.student-view .account-card .hint{font-size:12px}
+@media(max-width:500px){.student-view .dashboard-heading{padding:16px}.student-view .card{padding:18px}.student-view .company{padding:15px}.student-view .price{font-size:26px}.student-view .bigmoney{font-size:29px}.student-view .round-step b{font-size:10px}}
+.modal:focus-visible{outline:none}
+
+/* Responsive and scroll-safe layout, November 2026.
+   Ordinary page content must remain in the document flow: no sticky/fixed
+   dashboard, account, navigation, or action panels that cover other content. */
+.teacher-sidebar,
+.teacher-sidepanel,
+.account-card,
+.student-view .account-card {
+  position: static;
+  top: auto;
+  bottom: auto;
+}
+.teacher-sidebar { min-height: 0; align-self: stretch; }
+.teacher-sidepanel { align-self: start; }
+.teacher-workspace { min-width: 0; }
+.teacher-main, .teacher-sidepanel, .teacher-market, .teacher-table-wrap { min-width: 0; }
+.student-view .dashboard > *, .student-view .card { min-width: 0; }
+.student-view .dashboard-heading { overflow-wrap: anywhere; }
+.student-view .bigmoney { overflow-wrap: anywhere; }
+.student-view .company-heading { min-width: 0; }
+.student-view .company-heading > div { min-width: 0; }
+.student-view .company-heading h3 { overflow-wrap: anywhere; }
+.student-view .company .price { font-variant-numeric: tabular-nums; overflow-wrap: anywhere; }
+.student-view .hold { line-height: 1.6; }
+.student-view .tradebuttons { flex-wrap: wrap; }
+.student-view .tradebuttons button { min-width: 80px; }
+/* Only a deliberately opened dialog floats over the page. Its own content scrolls. */
+.overlay { overflow-y: auto; overscroll-behavior: contain; }
+.modal { max-height: calc(100dvh - 32px); overflow-y: auto; }
+@media (max-width: 1030px) {
+  .teacher-sidebar, .teacher-sidepanel { position: static; top: auto; }
+}
+@media (max-width: 800px) {
+  /* One readable vertical flow on phones and smaller tablets. */
+  .student-view .dashboard { display: flex; flex-direction: column; gap: 14px; }
+  .student-view .dashboard > * { width: 100%; flex-shrink: 0; }
+  .student-view .dashboard-heading { order: 1; }
+  .student-view .market-strip { order: 2; }
+  .student-view .news-card { order: 3; }
+  .student-view .lobby { order: 4; }
+  .student-view .account-card { order: 5; }
+  .student-view .market-card { order: 6; }
+  .student-view .dashboard > .card.full:not(.news-card):not(.lobby) { order: 7; }
+  .student-view .account-card, .student-view .market-card { position: static; }
+  .student-view .history { max-height: none; overflow: visible; }
+  .student-view .news p { overflow-wrap: anywhere; }
+  .student-view .gridcompanies { grid-template-columns: repeat(2, minmax(0,1fr)); }
+}
+@media (max-width: 600px) {
+  .student-view .gridcompanies { grid-template-columns: minmax(0,1fr); }
+  .student-view .dashboard-heading .topline { align-items: flex-start; }
+  .student-view .dashboard-heading .actionrow { width: 100%; justify-content: flex-start; }
+  .student-view .company { padding: 17px; }
+  .student-view .company .tradebuttons { display: grid; grid-template-columns: repeat(3,minmax(0,1fr)); gap: 8px; }
+  .student-view .company .tradebuttons button { min-width: 0; min-height: 46px; font-size: 13px; }
+  .student-view .account-card .bigmoney { font-size: clamp(25px, 7.5vw, 33px); }
+  .student-view .market-strip { max-width: 100%; }
+  .student-view .round-progress { gap: 4px; }
+  .student-view .round-step { min-width: 0; }
+  .student-view .round-step b { overflow-wrap: anywhere; }
+  .student-view .result-grid { grid-template-columns: 1fr; }
+  .chart-modal { width: 100%; }
+  .chart { max-width: 100%; }
+}
+@media (max-width: 360px) {
+  .student-view .company .tradebuttons { grid-template-columns: repeat(2,minmax(0,1fr)); }
+  .student-view .company .tradebuttons button:last-child { grid-column: 1/-1; }
+  .student-view .dashboard-heading h1 { font-size: 21px; }
+}
+
+/* Distinct pre-round teaching news. This is ordinary flowing content, never a floating layer. */
+.teacher-intro-news { border: 2px solid #c5d7f4 !important; background: #fff !important; }
+.teacher-intro-news .section-title { align-items:center; }
+.teacher-intro-news .section-title h2 { margin:0; }
+.teacher-intro-news .tag { color:#20477d; background:#eaf1ff; font-weight:800; }
+.intro-guide { display:flex; align-items:flex-start; gap:12px; padding:14px 16px; background:#edf4ff; border-radius:10px; color:#28476e; margin:0 0 20px; font-size:13px; line-height:1.7; }
+.intro-guide strong { white-space:nowrap; color:#15336b; }
+.intro-footnote { font-size:12px; color:#53647d; line-height:1.7; padding-top:13px; margin:15px 0 0; border-top:1px solid #e8edf5; }
+.student-lobby-screen { width:min(800px,100%); margin:24px auto 60px; display:flex; flex-direction:column; gap:22px; }
+.student-lobby-heading { text-align:center; padding:20px 12px 4px; }
+.student-lobby-heading h1 { font-size:clamp(24px,5vw,34px); margin:10px 0; color:#17284a; }
+.student-lobby-heading p { color:#61718a; font-size:14px; line-height:1.8; }
+.student-lobby-heading .status { display:inline-flex; margin-top:10px; }
+.student-lobby-screen .news-card { width:100%; }
+.student-lobby-screen .news p { font-size:14px; line-height:2; }
+.student-lobby-wait { padding:18px; border:1px solid #dce6f5; border-radius:10px; background:#f4f8ff; color:#1b396c; text-align:center; font-weight:700; font-size:14px; }
+@media(max-width:720px) { .intro-guide { flex-direction:column; gap:4px; } .student-lobby-screen { margin:0 auto 32px; gap:15px; } .student-lobby-heading { padding:12px 0; } .student-lobby-heading p { font-size:12px; } .student-lobby-screen .news p { font-size:13px; } }
+
+
+/* First student screen: eight company product/service explanations. */
+.student-lobby-screen { width:min(960px,100%); }
+.student-company-intro { min-width:0; position:static; }
+.student-company-intro .section-title { align-items:center; flex-wrap:wrap; }
+.student-company-intro .section-title h2 { margin:7px 0 0; font-size:21px; color:#1b2b49; }
+.student-company-intro-lead { margin:0 0 18px; color:#65748c; font-size:13px; line-height:1.8; }
+.student-company-intro-grid { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:12px; }
+.student-company-intro-item { display:flex; align-items:flex-start; gap:12px; min-width:0; padding:17px; border:1px solid #e3eaf3; border-radius:12px; background:#fbfcff; }
+.student-company-intro-icon { display:grid; place-items:center; flex:0 0 44px; width:44px; height:44px; border-radius:11px; background:#eaf1ff; font-size:24px; }
+.student-company-intro-item > div { min-width:0; }
+.student-company-intro-item h3 { margin:1px 0 7px; font-size:15px; line-height:1.4; color:#1b2b49; }
+.student-company-intro-item p { margin:0; color:#53627b; font-size:13px; line-height:1.75; overflow-wrap:anywhere; }
+@media (max-width:680px) {
+  .student-company-intro-grid { grid-template-columns:minmax(0,1fr); gap:10px; }
+  .student-company-intro .section-title h2 { font-size:19px; }
+  .student-company-intro-item { padding:14px; }
+  .student-company-intro-item p { font-size:12px; }
+  .student-company-intro-icon { flex-basis:40px; width:40px; height:40px; font-size:22px; }
+}
+
+/* Mobile lobby reading order: explain the economic news before the company cards.
+   Keep each block in normal document flow so scrolling never covers the text. */
+@media (max-width: 720px) {
+  .student-view .student-lobby-screen { display: flex; flex-direction: column; }
+  .student-view .student-lobby-heading { order: 0; }
+  .student-view .student-lobby-screen > .news-card { order: 1; position: static; }
+  .student-view .student-lobby-screen > .student-lobby-wait { order: 2; position: static; }
+  .student-view .student-lobby-screen > .student-company-intro { order: 3; position: static; }
+}
+
+
+/* Finished student report: regular document flow, no sticky or covering panels. */
+body.student-finished header { display: none; }
+body.student-finished main {
+  display: block;
+  width: 100%;
+  max-width: 1160px;
+  min-height: 100dvh;
+  margin: 0 auto;
+  padding: 30px 24px 70px;
+  background: #fff;
+}
+.student-final-report { display: flex; flex-direction: column; gap: 26px; min-width: 0; }
+.student-final-report .final-complete {
+  text-align: center;
+  padding: 35px 18px;
+  border: 1px solid #dce7f7;
+  border-radius: 16px;
+  background: #f7faff;
+}
+.student-final-report .final-complete h1 {
+  margin: 12px 0;
+  font-size: clamp(24px, 4vw, 34px);
+  color: #182b50;
+  line-height: 1.5;
+  letter-spacing: -.7px;
+}
+.student-final-report .final-complete p { margin: 0; font-size: 14px; color: #5d6e89; line-height: 1.8; }
+.student-final-report .final-market-section,
+.student-final-report .final-results-section,
+.student-final-report .teacher-market,
+.student-final-report .card { min-width: 0; width: 100%; }
+.student-final-report .teacher-market { position: static; }
+.student-final-report .teacher-table-wrap { overflow-x: auto; }
+.student-final-report .result-grid { grid-template-columns: repeat(2, minmax(0,1fr)); }
+.student-final-report .final-mobile-market { display: none; }
+.student-final-report .result-item { min-width: 0; }
+.student-final-report .result-item p { overflow-wrap: anywhere; }
+@media (max-width: 760px) {
+  body.student-finished main { padding: 18px 14px 52px; }
+  .student-final-report { gap: 16px; }
+  .student-final-report .final-complete { padding: 27px 15px; }
+  .student-final-report .final-complete h1 { font-size: clamp(22px, 6vw, 29px); }
+  .student-final-report .final-complete p { font-size: 12px; }
+  .student-final-report .final-market-section > .teacher-market { display: none; }
+  .student-final-report .final-mobile-market { display: grid; grid-template-columns: 1fr; gap: 11px; }
+  .student-final-report .final-mobile-market:before {
+    content: '기업별 주가 현황';
+    display: block;
+    font-size: 20px;
+    font-weight: 800;
+    color: #182b50;
+    padding: 3px 1px 4px;
+  }
+  .student-final-report .final-stock-item {
+    min-width: 0;
+    padding: 16px;
+    border: 1px solid #e3e9f1;
+    border-radius: 12px;
+    background: #fff;
+  }
+  .student-final-report .final-stock-name { display: flex; align-items: center; gap: 9px; }
+  .student-final-report .final-stock-name h3 { margin: 0; font-size: 15px; }
+  .student-final-report .final-stock-price { margin: 10px 0 4px; font-size: 23px; font-weight: 800; letter-spacing: -.7px; }
+  .student-final-report .final-stock-change { font-size: 12px; }
+  .student-final-report .final-stock-bottom { display: flex; align-items: center; justify-content: space-between; gap: 12px; margin-top: 10px; }
+  .student-final-report .final-stock-bottom .mini-chart { width: 110px; max-width: 50%; height: 40px; }
+  .student-final-report .final-stock-bottom .table-chart-btn { min-height: 42px; padding: 9px 15px; }
+  .student-final-report .final-results-section .card { padding: 18px; }
+  .student-final-report .result-grid { grid-template-columns: 1fr; }
+}
+
+/* Bottom exit action for teacher, student lobby, trading and final results.
+   Normal document flow: never sticky, fixed or covering other content. */
+.game-exit-footer {
+  grid-column: 1 / -1;
+  order: 99;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  min-width: 0;
+  padding: 20px 12px 32px;
+  margin-top: 8px;
+  border-top: 1px solid #e5eaf2;
+  position: static;
+}
+.game-exit-button {
+  min-height: 48px;
+  min-width: 170px;
+  max-width: 320px;
+  width: min(100%, 320px);
+  padding: 12px 24px;
+  border: 1px solid #b7c3d4;
+  border-radius: 10px;
+  background: #fff;
+  color: #243653;
+  font-weight: 700;
+  font-size: 15px;
+}
+.game-exit-button:hover { background: #f4f7fc; border-color: #7d91ad; }
+.game-exit-button:focus-visible { outline: 3px solid #82a7ff; outline-offset: 3px; }
+.student-final-report .game-exit-footer { flex-shrink: 0; }
+@media (max-width: 720px) {
+  .game-exit-footer { padding: 18px 0 28px; margin-top: 0; }
+  .game-exit-button { width: 100%; max-width: none; min-height: 52px; }
+}
